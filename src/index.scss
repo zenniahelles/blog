@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.wrapper{
+
+  .PageHeader{
+    background:white;
+    text-align:center;
+    padding-bottom:5%;
+    padding-top:40px;
+    font-family: 'Dancing Script';
+    h1{
+      display:inline;
+      font-size:36pt;
+    }
+    .HeaderImage{
+      display:inline;
+      max-width:200px;
+    }
+  }
+
+  .SiteGrid{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap:5%;
+  }
+
+  .ProfilePhoto{
+    margin-left:100px;
+    max-width:100%;
+  }
+
+  .SidePanel{
+    border-top: 1.5px solid rgb(150, 179, 146);
+    min-width:200px;
+    background:rgb(243, 248, 243);
+    padding:10px;
+    padding-left:30px;
+    margin-left:100px;
+    height:300px;
+    .Latest{
+      font-weight:bold;
+      font-family:'Gotu';
+      color: rgb(75, 121, 69);
+    }
+  }
+
+  .PostBox{
+    background:rgb(243, 248, 243);
+    padding-left:20px;
+    border-top: 1.5px solid rgb(150, 179, 146);
+    min-width:400px;
+  }
+
+  .PostContent{
+    padding-right:20px;
+    font-size:11pt;
+  }
+
+  .Main{
+    margin-right:100px;
+    padding:20px;
+    padding-top:0;
+
+    .PostTitle{
+      color: rgb(75, 121, 69);
+      padding-top:10px;
+      font-family:'Gotu';
+      margin:0;
+    }
+
+    .Author{
+      font-weight:normal;
+      margin:0;
+      padding:8px;
+      margin-left:-20px;
+      padding-left:20px;
+      font-size:9pt;
+      display:inline;
+      h4{
+        display:inline;
+      }
+      .WrittenBy{
+        color: rgb(75, 121, 69);
+      }
+    }
+
+    .DateContainer{
+      background:rgb(225, 235, 224);
+      margin-bottom:55px;
+      font-size:9pt;
+      padding:8px;
+      margin-left:-20px;
+      padding-left:20px;
+      color: rgb(75, 121, 69);
+      p{
+        margin:0;
+        display:inline;
+        padding:0;
+      }
+      .Posted{
+        padding-left:5px;
+        color: rgb(75, 121, 69);
+      }
+    }
+
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
