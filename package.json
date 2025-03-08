@@ -7,7 +7,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bulma": "^0.8.1",
-    "contentful": "^7.14.0",
+    "contentful": "^11.5.4",
     "moment": "^2.24.0",
     "react": "^16.13.1",
     "react-bulma-components": "^3.2.0",
